@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.image-slider{
+    width: 600px;
+    height: 380px;
+    border-bottom: 1px solid red;
+    margin-left: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+#ok1,#ok2{
+    position: absolute;
+    font-size: x-large;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+    
+}
+
+#ok1{
+    padding-top: 380px;
+    padding-left: 375px;
+}
+
+#ok2{
+    padding-left: 940px;
+}
+
